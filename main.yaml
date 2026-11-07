@@ -1,5 +1,5 @@
 - name: ping the server
-  hosts: roboshop_frontend
+  hosts: Frontend
   become: yes
   serial: 8
   tasks:
