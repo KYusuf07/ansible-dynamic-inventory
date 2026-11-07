@@ -8,7 +8,7 @@
     
   - name: print Hi
     debug:
-    msg: "Hi"
+      msg: "Hi"
 
   - name: install nginx
     dnf:
