@@ -8,14 +8,14 @@
     
 - name: print Hi
   debug:
-      msg: "Hi"
+    msg: "Hi"
 
 - name: install nginx
   dnf:
-      name: nginx
-      state: present
+    name: nginx
+    state: present
 
 - name: start nginx
   service:
-      state: started
-      name: nginx    
+    state: started
+    name: nginx    
